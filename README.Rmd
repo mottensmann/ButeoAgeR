@@ -1,0 +1,56 @@
+---
+output: github_document
+html_preview: false
+---
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  fig.align = "center",
+  fig.width = 6,
+  fig.height = 6,
+  dpi = 300,
+  tidy = TRUE,
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "inst/README-"
+)
+```
+
+## ButeoAgeR package
+___
+
+This package contains a subset of functions that are part of the `RaptorR` package and contains functions to estimate nestling age and body condition based on wing length and body mass measures. 
+
+## Install and load the pakcage
+___
+
+To install the package, use ...
+
+```{r, eval=FALSE}
+devtools::install_github("mottensmann/ButeoAge")
+```
+
+Then, load the package  ...
+
+```{r}
+library(ButeoAgeR)
+```
+
+Functions ...
+
+```{r, warning=FALSE}
+## only plot the reference data
+buteo_condition(.plot = T)
+buteo_age(.plot = T)
+```
+
+Usage ...
+
+```{r,eval=FALSE}
+?buteo_age
+?buteo_condition
+```
+
+
+___
+

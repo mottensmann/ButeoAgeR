@@ -1,0 +1,25 @@
+Package: ButeoAgeR
+Type: Package
+Title: Estimating Nestling Age and Body Condition Indices for Common Buzzards
+Version: 0.1.0
+Author: Meinolf Ottensmann
+Maintainer: Meinolf Ottensmann <meinolf.ottensmann@web.de>
+Description: Contains the following functions  
+    (1) buteo_age: Age since hatching based on wing length measures 
+    (2) buteo_condition: Body condition index based on regressing body mass on wing length
+    (3) To be extended ...
+Language: en-GB
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+Imports:
+    devtools,
+    dplyr,
+    knitr,
+    magrittr,
+    ggplot2,
+    stringr,
+    stringi,
+    tidyverse,
+    utils
+RoxygenNote: 7.1.2
