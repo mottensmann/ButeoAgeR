@@ -20,7 +20,7 @@
 #'
 buteo_condition <- function(df = NULL, wing = "wing", weight = "weight", sex = "sex", unit = c("cm", "mm"), .plot = F) {
   ## get standard growth data
-  path <- system.file("extdata", "buzzard_wing_weight.txt", package = "RaptoR")
+  path <- system.file("extdata", "buzzard_wing_weight.txt", package = "ButeoAgeR")
   data <- read.table(path, header = T, skip = 1,
                      colClasses = c("integer", "factor", "numeric", "numeric"))
 

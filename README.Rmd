@@ -27,7 +27,7 @@ ___
 To install the package, use ...
 
 ```{r, eval=FALSE}
-devtools::install_github("mottensmann/ButeoAge")
+devtools::install_github("mottensmann/ButeoAgeR")
 ```
 
 Then, load the package  ...

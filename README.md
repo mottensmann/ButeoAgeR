@@ -14,7 +14,7 @@ body condition based on wing length and body mass measures.
 To install the package, use …
 
 ``` r
-devtools::install_github("mottensmann/ButeoAge")
+devtools::install_github("mottensmann/ButeoAgeR")
 ```
 
 Then, load the package …
